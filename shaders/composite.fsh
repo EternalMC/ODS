@@ -1,6 +1,7 @@
 #version 120
 
 uniform sampler2D gcolor;
+uniform vec3 shadowLightPosition;
 
 varying vec2 texcoord;
 
